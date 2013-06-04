@@ -11,7 +11,7 @@ function near(list, query, where, interval) {
   // Interval can not be beound (0 ... list.length)
   interval = [
     (!interval || interval[0] < 0) ? 0 : interval[0],
-    (!interval || interval[1] > list.length) ? list.length : interval[1]
+    (!interval || interval[1] >= list.length) ? (list.length - 1) : interval[1]
   ];
 
   // Make sure that `where` is inside the `interval`
