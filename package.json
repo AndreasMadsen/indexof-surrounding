@@ -1,18 +1,17 @@
 {
-  "name": "near",
+  "name": "indexof-surrounding",
   "description": "Like indexOf but looks at surrounding items",
   "version": "0.2.2",
   "author": "Andreas Madsen <amwebdk@gmail.com>",
-  "main": "./near.js",
+  "main": "./indexof_surrounding.js",
   "scripts": {
     "test": "tap test.js"
   },
   "repository" : {
     "type": "git",
-    "url": "git://github.com/AndreasMadsen/near.git"
+    "url": "git://github.com/AndreasMadsen/indexof-surrounding.git"
   },
   "keywords": [
-    "near",
     "surrounding",
     "search",
     "indexOf"

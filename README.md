@@ -1,17 +1,19 @@
-#near
+# indexof-surrounding
 
 > Like indexOf but looks at surrounding items
+
+_this module was previousely called `near`_
 
 ## Installation
 
 ```sheel
-npm install near
+npm install indexof-surrounding
 ```
 
 ## Documentation
 
 ```JavaScript
-var near = require('near');
+var near = require('indexof-surrounding');
 
 var list = ['a', 'b', 'b', 'a'];
 

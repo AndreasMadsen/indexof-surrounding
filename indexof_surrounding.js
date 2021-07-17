@@ -1,5 +1,5 @@
 
-function near(list, query, where, interval) {
+function indexofSurrounding(list, query, where, interval) {
   // Throw error if list isn't an array
   if (Array.isArray(list) === false) {
     throw new TypeError('List must be an array');
@@ -21,7 +21,7 @@ function near(list, query, where, interval) {
 
   return search(list, query, where, interval);
 }
-module.exports = near;
+module.exports = indexofSurrounding;
 
 function search(list, query, where, interval) {
   // The next side to search at, can be 0 (right) 1 (left)
