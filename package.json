@@ -1,7 +1,7 @@
 {
   "name": "indexof-surrounding",
   "description": "Like indexOf but looks at surrounding items",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": "Andreas Madsen <amwebdk@gmail.com>",
   "main": "./indexof_surrounding.js",
   "scripts": {
